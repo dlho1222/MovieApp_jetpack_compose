@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.part4.movieapp.ui.theme.MovieAppTheme
+import com.part4.movieapp.ui.theme.color.ColorSet
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,7 +42,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    MovieAppTheme {
+    MovieAppTheme(myColors = ColorSet.Red) {
         Greeting("Android")
     }
 }
