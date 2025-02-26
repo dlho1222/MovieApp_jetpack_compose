@@ -72,22 +72,22 @@ val Typography = Typography(
     )
 )
 
-val kotlin.text.Typography.h5Title: TextStyle
+val Typography.h5Title: TextStyle
     @Composable get() = androidx.compose.material3.MaterialTheme.typography.headlineMedium.copy(
         fontSize = 24.sp
     )
 
-val kotlin.text.Typography.dialogButton: TextStyle
+val Typography.dialogButton: TextStyle
     @Composable get() = androidx.compose.material3.MaterialTheme.typography.titleLarge.copy(
         fontSize = 18.sp
     )
 
-val kotlin.text.Typography.underlinedDialogButton: TextStyle
+val Typography.underlinedDialogButton: TextStyle
     @Composable get() = MaterialTheme.typography.labelLarge.copy(
         textDecoration = TextDecoration.Underline
     )
 
-val kotlin.text.Typography.underlinedButton: TextStyle
+val Typography.underlinedButton: TextStyle
     @Composable get() = MaterialTheme.typography.labelLarge.copy(
         textDecoration = TextDecoration.Underline
     )

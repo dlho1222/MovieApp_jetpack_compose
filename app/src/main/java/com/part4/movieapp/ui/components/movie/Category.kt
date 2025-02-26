@@ -9,7 +9,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 import com.part4.movieapp.ui.theme.MovieAppTheme
 import com.part4.movieapp.ui.theme.Paddings
 
@@ -18,7 +17,7 @@ fun CategoryRow() {
     Column {
         CategoryTitle("Action")
         LazyRow(
-            contentPadding = PaddingValues(horizontal = 10.dp)
+            contentPadding = PaddingValues(horizontal = Paddings.large)
         ) {
             //itemsIndexed
             item {
